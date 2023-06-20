@@ -6,7 +6,7 @@ let addb = document.querySelector(".add");
  let multib = document.querySelector(".multi");
  let divb = document.querySelector(".div");
 
-function additions(){
+const additions = () =>{
        const number1 = parseInt(num1.value)
        const number2 = parseInt(num2.value)
        const sum = number1 + number2;

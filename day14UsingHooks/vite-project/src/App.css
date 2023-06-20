@@ -1,0 +1,175 @@
+.mainB {
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+  width: 100%;
+}
+
+.containerA1 {
+  text-align: center;
+}
+
+.containerA1 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.containerA1 p {
+  font-size: 14px;
+  color: #888;
+}
+
+.containerB1 {
+  margin-top: 20px;
+}
+
+.contBA1 input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contBA1 input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.contBA1 input[type="button"] {
+  background-color: #aaa;
+  color: white;
+  cursor: pointer;
+}
+
+.contBA1 input[type="submit"]:hover,
+.contBA1 input[type="button"]:hover {
+  opacity: 0.8;
+}
+
+.contBA1 span {
+  color: red;
+  font-size: 12px;
+}
+
+.containerC1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.containerC1 button {
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: greenyellow;
+}
+
+.containerA {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.containerA h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.containerA p {
+  font-size: 14px;
+  color: #888;
+}
+
+.containerB {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerB input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.containerB span {
+  color: red;
+  font-size: 12px;
+  margin-top: 18px;
+}
+
+.contB {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contB1 {
+  display: flex;
+  align-items: center;
+}
+
+.contB1 input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.forget {
+  font-size: 14px;
+  color: #888;
+  cursor: pointer;
+}
+
+.containerC {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerC .btn {
+  margin-bottom: 10px;
+}
+
+.containerC .dont {
+  font-size: 14px;
+  color: #888;
+}
+
+.containerC .btnA {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  padding: 0;
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.containerC .login {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+}
+
+.containerC .login:hover,
+.containerC .btnA:hover {
+  opacity: 0.8;
+}
+.chat{
+  color: blue;
+}
+.forget{
+  margin-left: 100px;
+}

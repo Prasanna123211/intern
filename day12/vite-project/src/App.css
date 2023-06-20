@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DFCFBE;
+    gap: 120px;
+}
+hr{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+}
+.cards{
+    border: 2px solid black;
+}
